@@ -19,4 +19,3 @@ export function logAllPeopleInTreeWithQueue(topPerson: Person): void {
     console.log("TODO!  First person is " + topPerson.name);
 }
 
-console.log(logAllPeopleInTree())
