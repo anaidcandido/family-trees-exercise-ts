@@ -8,9 +8,9 @@ import { printBanner } from "./utils/bannerUtils";
 import { printPersonTreeAsAscii } from "./utils/toAsciiTree";
 
 async function mainProgram() {
-  printBanner("BARATHEON");
-  printPersonTreeAsAscii(createBaratheonTree());
-  logAllPeopleInTree(createBaratheonTree());
+  //printBanner("BARATHEON");
+  //printPersonTreeAsAscii(createBaratheonTree());
+  //logAllPeopleInTree(createBaratheonTree());
 
 
   //printBanner("STARK");
@@ -24,8 +24,8 @@ async function mainProgram() {
   // printBanner("All people in STARK")
   // logAllPeopleInTree(createStarkTree());
 
-  //printBanner("WITH STACK - british royals")
-  //logAllPeopleInTree(createBritishSuccessionTree());
+  printBanner("WITH STACK - british royals")
+  logAllPeopleInTree(createBritishSuccessionTree());
   //printBanner("WITH QUEUE - british royals")
   // logAllPeopleInTreeWithQueue(createBritishSuccessionTree());
 
